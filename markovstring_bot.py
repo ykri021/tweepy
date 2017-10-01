@@ -18,10 +18,10 @@ def tweets(api):
 
 
 def twitter_bot():
-    consumer_key = os.getenv("consumer_key", "B5UHVlHzCOOo8IIh63ZVwC17Z")
-    consumer_secret = os.getenv("consumer_secret", "qtoWz50zLCJU3R9Pp5H6Ev2hmbQPWpie7naEYD6RCeA79bGzqD")
-    access_token = os.getenv("access_token", "4201071972-MJBpoaWxHKBUnoMQw5LAzbxlLlq6J4YfeucI3qo")
-    access_token_secret = os.getenv("access_token_secret", "mc4sfKiUSel8G67n0oaw0v1pciD1DOBQr45pD0lXXfrAv")
+    consumer_key = os.getenv("consumer_key")
+    consumer_secret = os.getenv("consumer_secret")
+    access_token = os.getenv("access_token")
+    access_token_secret = os.getenv("access_token_secret")
 
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
