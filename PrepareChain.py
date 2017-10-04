@@ -20,8 +20,8 @@ class PrepareChain(object):
     BEGIN = u"__BEGIN_SENTENCE__"
     END = u"__END_SENTENCE__"
 
-    DB_PATH = "/Users/yukarikakuta/PycharmProjects/tweepiyo/chain.db"
-    DB_SCHEMA_PATH = "/Users/yukarikakuta/PycharmProjects/tweepiyo/schema.sql"
+    DB_PATH = "chain.db"
+    DB_SCHEMA_PATH = "schema.sql"
 
     def __init__(self, text):
         u"""
